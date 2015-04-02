@@ -16,8 +16,8 @@ cpus    = ENV.fetch("DOCKER_CPUS", "1")
 cidr    = ENV.fetch("DOCKER0_CIDR", "")
 args    = ENV.fetch("DOCKER_ARGS", "")
 
-b2d_version = "1.2.0"
-release_url = "https://github.com/fnichol/boot2docker-vagrant-box/releases/download/v#{b2d_version}"
+b2d_version = "1.5.0"
+release_url = "https://github.com/ripta/boot2docker-vagrant-box/releases/download/v#{b2d_version}"
 
 docker0_bridge_setup = ""
 bridge_utils_url     = "ftp://ftp.nl.netbsd.org/vol/2/metalab/distributions/tinycorelinux/4.x/x86/tcz/bridge-utils.tcz"
